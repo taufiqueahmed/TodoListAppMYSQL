@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors({  origin: [
     'http://localhost:5173',
     'http://localhost:4173',
-    'https://todoappmysql.web.app/',
+    'https://todoappmysql.web.app',
     'https://todoappmysql.firebaseapp.com',
     process.env.FRONTEND_URL,
   ].filter(Boolean),}));
